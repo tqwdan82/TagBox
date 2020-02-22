@@ -1,0 +1,88 @@
+.tagbox-container{
+    width:100%;
+    border: 1px solid #ccc;
+}
+
+.tagbox-container .tagbox-overall-tooltip-icon{
+  display: none;
+  vertical-align: top;
+  height:32px;
+  padding: 5px;
+}
+
+.tagbox-container .tagbox-tag-container{
+    
+    padding:5px 0px;
+    border-radius: 5px;
+    display: inline-block;
+    width:95%;
+    height:100%;
+}
+.tagbox-tag-container .tag{
+    padding:5px;
+    border: 1px solid #ccc;
+    margin: 0px 10px 5px 0px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 3px;
+    background: #f2f2f2;
+}
+
+.tagbox-tag-container .tag i{
+    font-size: 80%;
+    margin-left: 5px;
+}
+
+.tagbox-tag-container .tag i:hover{
+    cursor: pointer;
+}
+
+.tagbox-tag-container .tag .tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tagbox-tag-container .tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #1F618D;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  
+
+  /* position the tooltip */
+  position: absolute;
+  z-index: 1;
+  /* top: 100%;
+  left: 50%; */
+  margin-top: 25px;
+  margin-left: -20px;
+}
+
+.tagbox-tag-container .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tagbox-container .tagbox-overall-tooltip-icon .tooltiptext{
+  visibility: hidden;
+  background-color: #1F618D;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  
+
+  /* position the tooltip */
+  position: absolute;
+  z-index: 1;
+  /* top: 100%;
+  left: 50%; */
+  margin-top: 15px;
+  margin-left: -5px;
+}
+
+.tagbox-container .tagbox-overall-tooltip-icon:hover .tooltiptext {
+  visibility: visible;
+}
