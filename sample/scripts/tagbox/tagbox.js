@@ -47,14 +47,7 @@
             }
 
             if(this.value){
-                //this.dropdownBoxInput.setAttribute("value", this.value);
             }
-
-            // if(this.options)
-            // {
-            //     updateOptions(this.dropdownBoxList, this.options, this.dropdownBoxInput);
-            // }
-
 
         }
         connectedCallback() {
